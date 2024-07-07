@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+* {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #eeeeee;
+  font-family: 'Roboto Slab', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Header */
+header {
+  margin: 0 25px;
+  background-color: #c5c5c5;
+  padding: 15px;
+  border-radius: 40px;
+}
+
+header figure {
+  margin: 25px;
+  text-align: center;
+}
+
+header figure img {
+  border-radius: 200px;
+  width: 150px;
+  height: 100%;
+}
+
+.per_portafolio {
+  margin: 25px;
+  text-align: center;
+}
+
+.per_portafolio h1 {
+  font-size: 40px;
+}
+
+/* Main */
+main {
+  margin: 25px;
+  padding: 0 25px 25px 25px;
+}
+
+.desc {
+  margin: 25px 0;
+}
+
+.desc h2 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.desc p {
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.tittle_card h2 {
+  font-size: 30px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 1rem auto 1rem auto;
+}
+
+.card {
+  width: 150px;
+  padding: 0.5rem;
+  box-shadow: 0px 3px 0.5px #000;
+  margin: 1rem 2rem;
+}
+
+.card:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+  box-shadow: none;
+}
+
+.card img {
+  width: 150px;
+}
+
+.card-title h2 {
+  font-size: 17px;
+}
+
+/* Footer */
+footer {
+  background-color: #c5c5c5;
+  margin: 25px;
+  border-radius: 40px;
+}
+
+footer .grupo_1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+footer .grupo_1 .box {
+  text-align: center;
+}
+
+footer .grupo_1 .box h2 {
+  color: #3a3a3a;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+
+footer .grupo_1 .box .red_social a img {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 45px;
+  margin: 5px 10px;
+  align-items: center;
+}
+
+footer .grupo_1 .box .red_social a img:hover {
+  transform: scale(1.2);
+  transition: all 0.1s;
+}
+
+footer .grupo_2 {
+  background-color: #b1b1b1;
+  padding: 15px 10px;
+  text-align: center;
+  color: #FFFFFF;
+}
